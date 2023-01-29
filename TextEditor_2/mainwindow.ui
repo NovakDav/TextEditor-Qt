@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>838</width>
+      <height>441</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>Font:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFontComboBox" name="fontComboBox">
+         <property name="editable">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_2">
+         <property name="text">
+          <string>Veliksot písma:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="SizeComboBox">
+         <property name="editable">
+          <bool>true</bool>
+         </property>
+         <property name="currentText">
+          <string>12</string>
+         </property>
+         <item>
+          <property name="text">
+           <string>2</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>4</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>6</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>8</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>10</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>12</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>14</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>16</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>18</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>20</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>22</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>24</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>26</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>28</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>30</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>32</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>34</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>36</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>38</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>40</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>42</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>44</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>46</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>48</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>50</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>52</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>54</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>56</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>58</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>60</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>62</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>64</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>66</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>68</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>70</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>72</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>74</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>76</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>78</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>80</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>82</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>84</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>86</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>88</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>90</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>92</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>94</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>96</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>98</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="lineEdit_word"/>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_zpet">
+         <property name="text">
+          <string>&lt;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_next">
+         <property name="text">
+          <string>&gt;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="lineedit_nahradit"/>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_replace">
+         <property name="text">
+          <string>Nahradit</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QMdiArea" name="mdiArea2"/>
+     </item>
+     <item>
+      <widget class="QTextEdit" name="textEdit">
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>1</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuSoubor">
+    <property name="title">
+     <string>Soubor</string>
+    </property>
+    <addaction name="actionNov"/>
+    <addaction name="actionOtev_t"/>
+    <addaction name="actionUlozit"/>
+    <addaction name="actionUlozit_jako"/>
+    <addaction name="actionTisk"/>
+    <addaction name="separator"/>
+    <addaction name="actionZavrit"/>
+   </widget>
+   <widget class="QMenu" name="menuEdit">
+    <property name="title">
+     <string>Edit</string>
+    </property>
+    <addaction name="actionKop_rovat"/>
+    <addaction name="actionVyst_ihnout"/>
+    <addaction name="actionVlo_it"/>
+    <addaction name="separator"/>
+    <addaction name="actionNaj_t"/>
+    <addaction name="actionNahradit"/>
+    <addaction name="separator"/>
+    <addaction name="actionVybrat_v_e"/>
+   </widget>
+   <widget class="QMenu" name="menuText">
+    <property name="title">
+     <string>Text</string>
+    </property>
+    <addaction name="actionTu_n_p_smo"/>
+    <addaction name="actionKurz_va"/>
+    <addaction name="actionPodtr_en"/>
+    <addaction name="separator"/>
+    <addaction name="separator"/>
+    <addaction name="actionFont"/>
+    <addaction name="actionBarva"/>
+   </widget>
+   <addaction name="menuSoubor"/>
+   <addaction name="menuEdit"/>
+   <addaction name="menuText"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionNov"/>
+   <addaction name="actionOtev_t"/>
+   <addaction name="actionUlozit"/>
+   <addaction name="actionUlozit_jako"/>
+   <addaction name="separator"/>
+   <addaction name="actionRedo"/>
+   <addaction name="actionUndo"/>
+   <addaction name="separator"/>
+   <addaction name="actionKop_rovat"/>
+   <addaction name="actionVyst_ihnout"/>
+   <addaction name="actionVlo_it"/>
+  </widget>
+  <widget class="QToolBar" name="toolBar_2">
+   <property name="windowTitle">
+    <string>toolBar_2</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="separator"/>
+   <addaction name="action_align_levo"/>
+   <addaction name="action_align_pravo"/>
+   <addaction name="actionalign_justify"/>
+   <addaction name="actionalign_center"/>
+   <addaction name="separator"/>
+   <addaction name="actionTu_n_p_smo"/>
+   <addaction name="actionKurz_va"/>
+   <addaction name="actionPodtr_en"/>
+   <addaction name="separator"/>
+   <addaction name="actionBarva"/>
+  </widget>
+  <action name="actionNov">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/files/icons/new.png</normaloff>:/files/icons/new.png</iconset>
+   </property>
+   <property name="text">
+    <string>Nový</string>
+   </property>
+  </action>
+  <action name="actionOtev_t">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/files/icons/open.png</normaloff>:/files/icons/open.png</iconset>
+   </property>
+   <property name="text">
+    <string>Otevřít</string>
+   </property>
+  </action>
+  <action name="actionUlozit">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/files/icons/save.png</normaloff>:/files/icons/save.png</iconset>
+   </property>
+   <property name="text">
+    <string>Uložit</string>
+   </property>
+  </action>
+  <action name="actionUlozit_jako">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/files/icons/save_as.png</normaloff>:/files/icons/save_as.png</iconset>
+   </property>
+   <property name="text">
+    <string>Uložit jako</string>
+   </property>
+  </action>
+  <action name="actionZavrit">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/files/icons/cancel.png</normaloff>:/files/icons/cancel.png</iconset>
+   </property>
+   <property name="text">
+    <string>Zavřít</string>
+   </property>
+  </action>
+  <action name="actionKop_rovat">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/files/icons/copy.png</normaloff>:/files/icons/copy.png</iconset>
+   </property>
+   <property name="text">
+    <string>Kopírovat</string>
+   </property>
+  </action>
+  <action name="actionVyst_ihnout">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/files/icons/cut.png</normaloff>:/files/icons/cut.png</iconset>
+   </property>
+   <property name="text">
+    <string>Vystřihnout</string>
+   </property>
+  </action>
+  <action name="actionVlo_it">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/files/icons/paste.png</normaloff>:/files/icons/paste.png</iconset>
+   </property>
+   <property name="text">
+    <string>Vložit</string>
+   </property>
+  </action>
+  <action name="actionNaj_t">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/files/icons/find.png</normaloff>:/files/icons/find.png</iconset>
+   </property>
+   <property name="text">
+    <string>Najít</string>
+   </property>
+  </action>
+  <action name="actionNahradit">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/files/icons/replace_text.png</normaloff>:/files/icons/replace_text.png</iconset>
+   </property>
+   <property name="text">
+    <string>Nahradit</string>
+   </property>
+  </action>
+  <action name="actionVybrat_v_e">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/files/icons/sellect_all.png</normaloff>:/files/icons/sellect_all.png</iconset>
+   </property>
+   <property name="text">
+    <string>Vybrat vše</string>
+   </property>
+  </action>
+  <action name="actionTu_n_p_smo">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/files/icons/bold.png</normaloff>:/files/icons/bold.png</iconset>
+   </property>
+   <property name="text">
+    <string>Tučné písmo</string>
+   </property>
+  </action>
+  <action name="actionKurz_va">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/files/icons/italic.png</normaloff>:/files/icons/italic.png</iconset>
+   </property>
+   <property name="text">
+    <string>Kurzíva</string>
+   </property>
+  </action>
+  <action name="actionPodtr_en">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/files/icons/underline.png</normaloff>:/files/icons/underline.png</iconset>
+   </property>
+   <property name="text">
+    <string>Podtržení</string>
+   </property>
+  </action>
+  <action name="actionTisk">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/files/icons/print.png</normaloff>:/files/icons/print.png</iconset>
+   </property>
+   <property name="text">
+    <string>Tisk</string>
+   </property>
+  </action>
+  <action name="actionRedo">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/files/icons/redo.png</normaloff>:/files/icons/redo.png</iconset>
+   </property>
+   <property name="text">
+    <string>Redo</string>
+   </property>
+   <property name="toolTip">
+    <string>Redo</string>
+   </property>
+  </action>
+  <action name="actionUndo">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/files/icons/undo.png</normaloff>:/files/icons/undo.png</iconset>
+   </property>
+   <property name="text">
+    <string>Undo</string>
+   </property>
+   <property name="toolTip">
+    <string>Undo</string>
+   </property>
+  </action>
+  <action name="action_align_levo">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/files/icons/align_left.png</normaloff>:/files/icons/align_left.png</iconset>
+   </property>
+   <property name="text">
+    <string>align_levo</string>
+   </property>
+  </action>
+  <action name="action_align_pravo">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/files/icons/align_right.png</normaloff>:/files/icons/align_right.png</iconset>
+   </property>
+   <property name="text">
+    <string>align_pravo</string>
+   </property>
+   <property name="toolTip">
+    <string>align_pravo</string>
+   </property>
+  </action>
+  <action name="actionalign_center">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/files/icons/align_center.png</normaloff>:/files/icons/align_center.png</iconset>
+   </property>
+   <property name="text">
+    <string>align_center</string>
+   </property>
+  </action>
+  <action name="actionalign_justify">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/files/icons/align_justify.png</normaloff>:/files/icons/align_justify.png</iconset>
+   </property>
+   <property name="text">
+    <string>align_justify</string>
+   </property>
+  </action>
+  <action name="actionFont">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/files/icons/font.png</normaloff>:/files/icons/font.png</iconset>
+   </property>
+   <property name="text">
+    <string>Font</string>
+   </property>
+  </action>
+  <action name="actionBarva">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/files/icons/color.png</normaloff>:/files/icons/color.png</iconset>
+   </property>
+   <property name="text">
+    <string>Barva</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>actionZavrit</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>299</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
